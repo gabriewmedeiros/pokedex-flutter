@@ -62,13 +62,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 padding: const EdgeInsets.all(20),
                 child: ElevatedButton(
                     style: ButtonStyle(
-                        padding: MaterialStateProperty.all(
-                            const EdgeInsets.only(top: 12, bottom: 12)),
-                        backgroundColor: MaterialStateProperty.all(
-                            const Color.fromRGBO(247, 186, 20, 1)),
-                        foregroundColor:
-                            MaterialStateProperty.all<Color>(Colors.black),
-                        shape:
+                      padding: MaterialStateProperty.all(
+                          const EdgeInsets.only(top: 12, bottom: 12)),
+                      backgroundColor: MaterialStateProperty.all(
+                          const Color.fromRGBO(247, 186, 20, 1)),
+                      foregroundColor:
+                          MaterialStateProperty.all<Color>(Colors.black),
                     ),
                     onPressed: () {},
                     child: const Text("Create Account",
